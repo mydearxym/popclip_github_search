@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+        <key>Version</key>
+        <integer>1</integer>
+	<key>Extension Name</key>
+	<string>Github search</string>
+	<key>Extension Identifier</key>
+	<string>com.github.extension.github-search</string>
+	<key>Extension Description</key>
+	<string>search github in browser with the selected text.</string>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>URL</key>
+                        <string>https://github.com/search?q={popclip text}</string>
+			<key>Image File</key>
+			<string>GithubIcon.png</string>
+			<key>Title</key>
+			<string>Github search</string>
+		</dict>
+	</array>
+</dict>
+</plist>
